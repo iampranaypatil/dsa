@@ -66,25 +66,7 @@ public class Sorts {
 	    	swap(arr,j,left);
 	    	quickSort(arr,left,j-1);
 	    	quickSort(arr,j+1,right);
-	    	
-//	    	 if(left>=right)
-//	             return;
-//
-//	         int i=0,j=right;
-//	         
-//	         while(i<j){
-//	             while (i <= right && arr[i] <= arr[left])
-//	                 i++;
-//
-//	             while(arr[j]>arr[left])
-//	                 j--;
-//	             if(i<j)
-//	                 swap(arr,i,j);
-//	         }
-//	         swap(arr,j,left);
-//
-//	         quickSort(arr,left,j-1);
-//	         quickSort(arr,j+1,right);
+
 	      }
 	    
 	    
